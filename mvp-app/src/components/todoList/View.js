@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const ToDoListView = (props) => {
-  const data = { ...props.toDoListData };
+  const data = props.toDoListData;
   const [inputText, setInputText] = useState('');
 
   return (
